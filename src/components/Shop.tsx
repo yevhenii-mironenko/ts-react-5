@@ -1,8 +1,4 @@
-import { type ReactNode } from 'react';
-
-type ShopProps = {
-  children: ReactNode;
-};
+import { type ReactNode } from "react";
 
 export default function Shop({ children }: ShopProps) {
   return (
@@ -13,3 +9,7 @@ export default function Shop({ children }: ShopProps) {
     </section>
   );
 }
+
+type ShopProps = {
+  children: ReactNode;
+};

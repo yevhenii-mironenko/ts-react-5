@@ -1,11 +1,3 @@
-type ProductProps = {
-  id: string;
-  image: string;
-  title: string;
-  price: number;
-  description: string;
-};
-
 export default function Product({
   image,
   title,
@@ -30,3 +22,11 @@ export default function Product({
     </article>
   );
 }
+
+type ProductProps = {
+  id: string;
+  image: string;
+  title: string;
+  price: number;
+  description: string;
+};
